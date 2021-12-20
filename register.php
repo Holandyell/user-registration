@@ -26,7 +26,7 @@ include _INCULDES_DIR_ . '/html_start.html.php';
     <form method="post" action="" class="mt-4">
         <div class="mb-3">
             <label for="username" class="form-label">Username</label>
-            <input type="text" class="form-control" id="username" name="username">
+            <input type="text" class="form-control" id="username" name="username" autocomplete="off">
         </div>
         <div class="mb-3">
             <label for="exampleInputEmail" class="form-label">Email address</label>
